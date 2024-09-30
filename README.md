@@ -7,8 +7,7 @@
 ## Usage
 
 ```SHELL
-git clone https://github.com/FlynnHHH/DigitalGeometryProcessing.git
-cd prj01-Mesh Parameterization
+git clone https://github.com/FlynnHHH/TutteParameterization.git
 ```
 
 Edit lines **9** of CmakeLists.txt to set the values of **EIGEN_PATH**

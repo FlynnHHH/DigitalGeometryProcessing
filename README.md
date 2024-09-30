@@ -2,9 +2,9 @@
 
 ## Dependency
 
-* [Eigen](http://eigen.tuxfamily.org/)
+* [Eigen3.4.0](http://eigen.tuxfamily.org/)
 
-## Usage
+## Usage(Linux)
 
 ```SHELL
 git clone https://github.com/FlynnHHH/TutteParameterization.git

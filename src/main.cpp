@@ -6,7 +6,7 @@
 | 0 0 1 0 0 0 0 0 0 ....................... 0 |  | u3,   v3 | = | u3bound, v3bound |
 | 0 0 0 1 0 0 0 0 0 ....................... 0 |  | u4,   v4 | = | u4bound, v4bound |
 | ........................................... |  | ........ | = | ...    , ...     |
-| W_i,1 W_i,2 ... \SIGMA(W_i,j) W_i,j+1 ..... |  | u_i, v_i | = | 0      , 0       |
+| W_i,1 W_i,2 ... \sum(W_i,j) W_i,j+1 ....... |  | u_i, v_i | = | 0      , 0       |
 | ........................................... |  | ........ | = | 0      , 0       |
 
 对于边界上的点，uv的值已知，对于内部的点，其和邻居的线性组合为0。
@@ -121,7 +121,7 @@ int main(int argc, char** argv)
 			{
 				tripletlist.push_back(T(it1idx, (*it2)->index(), 1));  // W_i,j
 			}
-			tripletlist.push_back(T(it1idx, it1idx, -mesh.valence(*it1)));  // -\SIGMA(W_i,j)
+			tripletlist.push_back(T(it1idx, it1idx, -mesh.valence(*it1)));  // -\sum(W_i,j)
 		}
 	}
 

@@ -32,7 +32,7 @@ target_include_directories(ACAM_mesh
 ############################################################
 
 file (GLOB PRJ_FILE
-    src/tutte_parameterization_example.cpp
+    src/tutte_parameterization.cpp
 )
 
 # Add an executable with the above sources
